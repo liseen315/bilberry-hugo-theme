@@ -7,7 +7,7 @@ $site-width: {{ .Site.Params.SiteWidth | default "800px" }};
 
 // Define your fonts.
 // If you want to import new fonts, set them in /src/css/fonts.css
-$headline-font: 'Comfortaa', sans-serif;
+$headline-font: -apple-system, 'Roboto Mono', monospace, "Helvetica Neue",Tahoma,Arial,PingFangSC-Regular,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 $content-font: 'Open Sans', sans-serif;
 $article-footer-font: 'Roboto Mono', monospace;
 
@@ -15,7 +15,7 @@ $article-footer-font: 'Roboto Mono', monospace;
 $page-background-color: #f1f1f1;
 $base-color: #1d1f38;
 $special-color: #2D3642;
-$highlight-color: #5c8b59;
+$highlight-color: rgb(55, 111, 130);
 $text-color: #222;
 
 // easy styling
